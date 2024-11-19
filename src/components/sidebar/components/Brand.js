@@ -15,7 +15,7 @@ function SidebarBrand() {
   return (
     <Flex direction='column'> 
       {/*<HorizonLogo h='26px' w='175px' my='32px' color={logoColor} />*/}
-        <Box ms={`30px`} mb={`10px`} fontWeight={`900`} fontSize={`25px`}><Img src={logo} alt="logo" width="100px"/></Box>
+        <Flex gap={2} ms={`30px`} mb={`10px`} fontWeight={`900`} fontSize={`25px`}><Img src={logo} alt="logo" width="100px"/> Test</Flex>
       <HSeparator mb='20px' />
     </Flex>
   );
