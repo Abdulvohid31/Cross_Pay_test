@@ -1,6 +1,6 @@
 // import { io } from "socket.io-client";
 
-export const base_url = 'http://185.74.4.138:9090';
+export const base_url = 'http://185.74.4.138:9090/';
 // export const base_url = 'https://apk.qrpay.uz/';
 // export const socket = io('https://socket.qrpay.uz', {
 //       secure: true,
